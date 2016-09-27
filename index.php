@@ -36,8 +36,6 @@
  * @filesource
  */
 
-/* I added a comment */
-
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
