@@ -1,6 +1,11 @@
 <?php include_once('common/header.php'); ?>
 
-    <p>Hello!</p>
-    <p>Welcome <?php print $user; ?> from <?php print $country; ?></p>
-    
+<p>
+<?php if (isset($user) && isset($country)) { ?>
+  Welcome, <?= $user ?> from <?= $country ?>! 
+<?php } else { ?>
+  Welcome!
+<?php } ?>
+</p>
+
 <?php include_once('common/footer.php'); ?>

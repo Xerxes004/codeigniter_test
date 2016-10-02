@@ -24,7 +24,7 @@ class Another_page extends CI_Controller {
    * map to /index.php/welcome/<method_name>
    * @see https://codeigniter.com/user_guide/general/urls.html
    */
-  public function index($username, $country) {
+  public function index($username = null, $country = null) {
     $data = ['user' => $username, 'country' => $country];
     $this->load->view('another_page', $data);
   }
