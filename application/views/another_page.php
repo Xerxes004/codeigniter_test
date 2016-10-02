@@ -1,7 +1,6 @@
-<p>Hello!</p>
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+<?php include_once('common/header.php'); ?>
 
+    <p>Hello!</p>
+    <p>Welcome <?php print $user; ?> from <?php print $country; ?></p>
+    
+<?php include_once('common/footer.php'); ?>

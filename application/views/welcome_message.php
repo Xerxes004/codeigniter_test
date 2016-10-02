@@ -69,10 +69,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
 
     <div id="container">
-      <h1>Welcome to CodeIgniter! I changed a thing!</h1>
+      <h1>Welcome to CodeIgniter!</h1>
 
       <div id="body">
-        <a href="another_page/">Try this link!</a>
+        <a href="index.php/another_page/index/Wes/America">Try this link!</a>
         <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
         <p>If you would like to edit this page you'll find it located at:</p>

@@ -8,7 +8,7 @@ class Another_page extends CI_Controller {
   {
     parent::__construct();
   }
-  
+    
   /**
    * Index Page for this controller.
    *
@@ -24,10 +24,9 @@ class Another_page extends CI_Controller {
    * map to /index.php/welcome/<method_name>
    * @see https://codeigniter.com/user_guide/general/urls.html
    */
-  public function index() {
-    //$this->load->view('common/header');
-    $this->load->view('another_page');
-    //$this->load->view('common/footer');
+  public function index($username, $country) {
+    $data = ['user' => $username, 'country' => $country];
+    $this->load->view('another_page', $data);
   }
 
 }
